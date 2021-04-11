@@ -1,0 +1,169 @@
+<html>
+<head>
+    <title>Harvest Yield menu</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <style>
+       * {
+      box-sizing: border-box;
+      }
+      html, body {
+      min-height: 100vh;
+      padding: 0;
+      margin: 0;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px; 
+      color: #666;
+      }
+      input, textarea { 
+      outline: none;
+      }
+      body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      background: #5a7233;
+      }
+      h1 {
+      margin-top: 0;
+      font-weight: 500;
+      }
+      menu {
+      position: relative;
+      width: 80%;
+      border-radius: 30px;
+      background: #fff;
+      }
+      .menu-left-decoration,
+      .menu-right-decoration {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      border-radius: 20px;
+      background: #5a7233;
+      }
+      .menu-left-decoration {
+      bottom: 60px;
+      left: -30px;
+      }
+      .menu-right-decoration {
+      top: 60px;
+      right: -30px;
+      }
+      .menu-left-decoration:before,
+      .menu-left-decoration:after,
+      .menu-right-decoration:before,
+      .menu-right-decoration:after {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      border-radius: 30px;
+      background: #fff;
+      }
+      .menu-left-decoration:before {
+      top: -20px;
+      }
+      .menu-left-decoration:after {
+      top: 20px;
+      left: 10px;
+      }
+      .menu-right-decoration:before {
+      top: -20px;
+      right: 0;
+      }
+      .menu-right-decoration:after {
+      top: 20px;
+      right: 10px;
+      }
+      .circle {
+      position: absolute;
+      bottom: 80px;
+      left: -55px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #fff;
+      }
+      .menu-inner {
+      padding: 30px;
+      }
+      .menu-inner input,
+      .menu-inner textarea {
+      display: block;
+      width: 50%;
+      padding: 15px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 20px;
+      background: #d0dfe8;
+      }
+	  .menu-innerselect select,
+      .menu-innerselect textarea {
+      display: block;
+      width: 50%;
+      padding: 15px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 20px;
+      background: #d0dfe8;
+      }
+      .menu-inner textarea {
+      resize: none;
+      }
+      button {
+	  position: absolute
+      width: 50%;
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 50px;
+      border: none;
+      border-bottom: 4px solid #3e4f24;
+      background: #5a7233; 
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+      }
+	  
+      button:hover {
+      background: #3e4f24;
+      } 
+      @media (min-width: 568px) {
+      menu {
+      width: 35%;
+      }
+      }
+	 </style>
+	 </head>
+	<body>
+		<menu menu  class="decor">
+			<div class="menu-left-decoration"></div>
+			<div class="menu-right-decoration"></div>
+			<div class="circle"></div>
+			<div class="menu-inner">
+	  
+				<h1>Dream Harvest Forms</h1>	
+				<button action="daily-yield-form.php" type="Daily Yield Form" >Daily Yield Form</button>
+				<button type="Mature Tray Observations Form" >Mature Tray Observations Form</button><br/>
+				<button type="System Cleaning/Adjustment Form" >System Cleaning/Adjustment Form</button>
+				<button type="Transplant Form" >Transplant Form</button><br/>
+				<button type="Ellepot Batch Form" >Ellepot Batch Form</button>
+				<button type="System Adjustment Form" >System Adjustment Form</button>
+
+      </div>
+    </menu>
+  </body>
+</html>
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
