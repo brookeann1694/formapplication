@@ -1,6 +1,6 @@
-**#Dream Harvest Data Collection Forms**
+#Dream Harvest Data Collection Forms
 
-**##Includes the following forms:**
+##Includes the following forms:
 
 * Daily Yield Form
 This form is designed to collect usable, waste and any other yield or information collected from daily harvesting
